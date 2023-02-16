@@ -1,0 +1,1648 @@
+/*################################################### 
+#START
+
+
+RESPONSIVE DEVICE
+=============================
+=============================
+
+1) 1400px devices
+    1) home-one-1400-------------------]
+        1.1-1400) header area here
+        1.2-1400) hero area here
+        1.3-1400) company logo area here
+        1.4-1400) features area here
+        1.5-1400) about features area here
+        1.6-1400) grow area here
+        1.7-1400) testimonials area here
+        1.8-1400) choose area here
+        1.9-1400) cta area here
+        1.10-1400) footer area here
+
+    2) about-1400-------------------]
+        2.1-1400) about funfact area here
+        2.2-1400) about values area here
+
+    3) pricing-1400-------------------]
+        3.1-1400) pricing offer area here
+
+    4) integrates-details-1400-------------------]
+        4.1-1400) integrates details about area here
+
+    5) blog-1400-------------------]
+        5.1-1400) blog filter area here
+        5.2-1400) blog area here
+
+    6) blog-details-1400-------------------]
+        6.1-1400) about hero area here
+        6.2-1400) blog details area here
+
+    7) home-two-1400-------------------]
+        7.1-1400) hero2 area here
+        7.2-1400) features two area here
+        7.3-1400) customer area here
+        7.4-1400) testimonial2 area here
+        7.5-1400) offer area here
+        7.6-1400) funfact area here
+        7.7-1400) choose area here
+        7.8-1400) latest blog area here
+	
+
+
+2) 1200 xlarge devices
+    1) home-one-1200-------------------]
+        1.1-1200) header area here
+
+    2) contact-1200-------------------]
+        2.1-1200) contact hero area here
+        2.2-1200) contact area here
+
+    3) sign-up-1200-------------------]
+        3.1-1200) sign up area here
+
+    4) home-two-1200-------------------]
+        4.1-1200) hero2 area here
+        4.2-1200) choose area here
+
+
+
+3) 991px large devices
+    1) home-one-991-------------------]
+        1.1-991) header area here
+        1.2-991) hero area here
+        1.3-991) features area here
+        1.4-991) about features area here
+        1.5-991) grow area here
+        1.6-991) testimonials area here
+        1.7-991) choose area here
+        1.8-991) cta area here
+        1.9-991) footer area here
+
+    2) about-991-------------------]
+        2.1-991) about hero area here
+        2.2-991) about funfact area here
+        2.3-991) about values area here
+
+    3) integrates-details-991-------------------]
+        3.1-991) integrates details hero area here
+        3.2-991) integrates details about area here
+    
+    4) blog-details-991-------------------]
+        4.1-991) about hero area here
+        4.2-991) blog details area here
+
+    5) sign-up-991-------------------]
+        5.1-991) sign up area here
+
+    6) home-two-991-------------------]
+        6.1-991) hero2 area here
+        6.2-991) features two area here
+        6.3-991) customer area here
+        6.4-991) offer area here
+
+    7) integrates-1400-------------------]
+        7.1-1400) about features area here
+
+
+
+4) 768px medium devices
+    1) home-one-768-------------------]
+        1.1-768) features area here
+        1.2-768) about features area here
+        1.3-768) grow area here
+        1.4-768) testimonials area here
+        1.5-768) choose area here
+        1.6-768) cta area here
+        1.7-768) footer area here
+
+    2) about-768-------------------]
+        2.1-768) about hero area here
+        2.2-768) about funfact area here
+        2.3-768) about features area here
+        2.4-768) about values area here
+
+    3) pricing-768-------------------]
+        3.1-768) pricing offer area here
+
+    4) integrates-768-------------------]
+        4.1-768) about features area here
+        4.2-768) integrates area here
+    
+    5) blog-768-------------------]
+        5.1-768) blog filter area here
+
+    6) blog-details-768-------------------]
+        6.1-768) blog details area here
+
+    7) contact-768-------------------]
+        7.1-768) contact hero area here
+        7.2-768) contact area here
+
+    8) sign-up-768-------------------]
+        8.1-768) sign up area here
+
+    9) home-two-768-------------------]
+        9.1-768) hero2 area here
+        9.2-768) features two area here
+        9.3-768) customer area here
+        9.4-768) testimonial2 area here
+        9.5-768) latest blog area here
+        9.6-768) cta2 area here
+
+
+
+5) 576px small devices
+    1) integrates-576-------------------]
+        1.1-576) integrates area here
+
+    2) integrates-details-576-------------------]
+        2.1-576) integrates details hero area here
+
+    3) blog-576-------------------]
+        3.1-576) blog area here
+
+    4) home-two-768-------------------]
+        4.1-576) features two area here
+        4.2-576) testimonial2 area here
+        4.3-576) funfact area here
+        4.4-576) latest blog area here
+
+
+#theEND
+###################################################*/
+
+
+
+/*##############################
+Extra large: ---------
+1) 1400px devices
+##############################*/
+@media screen and (max-width: 1400px){
+    /* common  */
+    /* sectiuon padding area here  */
+    .sp_120{
+        padding: 100px 0px;
+    }
+    .sp_Top120{
+        padding-top: 100px;
+    }
+    .sp_bottom120{
+        padding-bottom: 100px;
+    }
+    /* section heading area here  */
+    .section_heading {
+        font-size: 64px;
+        line-height: 76.8px;
+        max-width: 600px;
+
+    }
+    .section_header {
+        margin-bottom: 50px;
+    }
+    /* button area here  */
+    .buttonH1 {
+        padding: 15px 20px;
+    }
+    /* common end */
+    
+    /* 
+    1) home-one-1400-------------------]
+    */
+    /*********************** 
+    1.1-1400) header area here
+    ***********************/
+    .logo_container {
+        margin-right: 80px;
+    }
+    .header_container .header_nav .navigation {
+        gap: 30px;
+    }
+
+    /*********************** 
+    1.2-1400) hero area here
+    ***********************/
+    .hero_wrapper {
+        padding: 120px 0px;
+    }
+    .hero_container .hero_header {
+        font-size: 60px;
+    }
+    .hero_container .hero_des {
+        line-height: 28px;
+        margin: 24px 0px 40px;
+    }
+    .hero_container .hero_condition {
+        margin-top: 60px;
+    }
+    /* vector  */
+    .hero_wrapper .vector img {
+        max-width: 4%;
+        bottom: 0;
+        left: 0;
+    }
+
+    /*********************** 
+    1.3-1400) company logo area here
+    ***********************/
+    .company_logo .cl_wrapper {
+        padding-bottom: 40px;
+    }
+
+    /*********************** 
+    1.4-1400) features area here
+    ***********************/
+    .features_container .features_items {
+        grid-gap: 20px;
+    }
+    .features_container .features_item {
+        padding: 40px 24px;
+    }
+    .features_container .features_content .thumb {
+        width: 60px;
+        height: 60px;
+    }
+    .features_container .features_content .thumb img {
+        max-width: 26px;
+    }
+
+    /*********************** 
+    1.5-1400) about features area here
+    ***********************/
+    .abf_container .abf_content {
+        grid-template-columns: 2;
+        grid-gap: 0px;
+    }
+
+    /*********************** 
+    1.6-1400) grow area here
+    ***********************/
+    .grow_container .grow_items {
+        grid-gap: 30px;
+    }
+
+    /*********************** 
+    1.7-1400) testimonials area here
+    ***********************/
+    .testimonials_items {
+        grid-gap: 20px;
+    }
+
+    /*********************** 
+    1.8-1400) choose area here
+    ***********************/
+    .choose_list .choose_list_content {
+        grid-gap: 20px;
+    }
+
+    /***********************
+    1.9-1400) cta area here
+    ***********************/
+    .cta .cta_wrapper .vector {
+        left: inherit;
+        right: -10px;
+    }
+
+    /***********************
+    1.10-1400) footer area here
+    ***********************/
+    .footer .footer_container {
+        padding: 80px 0px;
+    }
+    
+    /* 
+    2) about-1400-------------------]
+    */
+    /*********************** 
+    2.1-1400) about funfact area here
+    ***********************/
+    .aFunfact_container .item {
+        position: relative;
+        padding: 20px;
+    }
+    .aFunfact_container .item .totalfunfact {
+        margin-bottom: 10px;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .aFunfact_container .item p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /*********************** 
+    2.2-1400) about values area here
+    ***********************/
+    .aValues_container .aValues_items {
+        grid-gap: 40px;
+    }
+    .aValues_container .aValues_content .thumb {
+        width: 60px;
+        height: 60px;
+    }
+    .aValues_container .aValues_content .thumb img {
+        max-width: 26px;
+    }
+    .aValues_container .aValues_item .aValues_content .content h4 {
+        margin: 6px 0px 8px;
+    }
+    .aValues_container .aValues_item .aValues_content .content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    /* 
+    3) pricing-1400-------------------]
+    */
+    /*********************** 
+    3.1-1400) pricing offer area here
+    ***********************/
+    .pOffer .pOffer_wrapper {
+        padding-top: 80px;
+    }
+    .pOffer_item {
+        padding: 60px 40px;
+    }
+
+    /*
+    4) integrates-details-1400-------------------]
+    */
+    /***********************
+    4.1-1400) integrates details about area here
+    ***********************/
+    .inde_about_container .content h2 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /*
+    5) blog-1400-------------------]
+    */
+    /***********************
+    5.1-1400) blog filter area here
+    ***********************/
+    .b_filter_container .b_filter_content .heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /***********************
+    5.2-1400) blog area here
+    ***********************/
+    .blog {
+        padding-bottom: 80px;
+    }
+    .blog_container .blog_heading {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog_content .thumb {
+        margin-bottom: 20px;
+    }
+    .blog_content .thumb img {
+        height: 200px;
+    }
+    .blog_content .content .title a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog_content .content .date li span {
+        font-size: 12px;
+    }
+
+    /*
+    6) blog-details-1400-------------------]
+    */
+    /***********************
+    6.1-1400) about hero area here
+    ***********************/
+    .blog_details_hero {
+        padding: 100px 0px 0px;
+    }
+    .blog_details_hero .section_header {
+        margin-bottom: 30px !important;
+    }
+
+    /***********************
+    6.2-1400) blog details area here
+    ***********************/
+    .bd_post_info {
+        margin-bottom: 60px;
+        gap: 40px;
+    }
+    .bd_post_info .profile {
+        gap: 14px;
+    }
+    .bd_post_info .profile .thumb img {
+        width: 60px;
+        height: 60px;
+    }
+    .bd_post_info .profile .name h4 {
+        font-size: 24px;
+    }
+    .bd_post_info .publish_date .date p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .bd_content .content h2.title {
+        padding: 30px 0px 20px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    /* 
+    7) home-two-1400-------------------]
+    */
+    /*********************** 
+    7.1-1400) hero2 area here
+    ***********************/
+
+    /* common area  */
+    .buttonH2 {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    /* common area ends here */
+    .hero2 {
+        padding: 100px 0px 0px;
+    }
+    .hero_container2 .hero_heading2 {
+        font-size: 60px;
+        line-height: 70px;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .hero_container2 .hero_desc {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 24px 0px 40px;
+    }
+    .hero_container2 .star_content h4 {
+        font-size: 20px;
+    }
+    .hero_container2 .star_items {
+        gap: 4px;
+    }
+    .hero_container2 .star_content p {
+        font-size: 14px;
+    }
+
+    /***********************
+    7.2-1400) features two area here
+    ***********************/
+    /* common area  */
+    .section_heading2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .section_header2 .desc {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    /* common area ends here */
+    .features_container2 .features_items2 {
+        grid-gap: 20px;
+    }
+
+    /***********************
+    7.3-1400) customer area here
+    ***********************/
+    .customer_content .section_heading2 {
+        margin-bottom: 20px;
+    }
+    .customer_item {
+        grid-gap: 100px;
+    }
+
+    /***********************
+    7.4-1400) testimonial2 area here
+    ***********************/
+    .client_comments {
+        grid-gap: 20px;
+    }
+    .ceo_comment {
+        grid-gap: 60px;
+    }
+    .ceo_comment .section_header2 .section_heading2 {
+        margin-bottom: 20px;
+    }
+    .ceo_comment .content .info .thumb {
+        width: 50px;
+        height: 50px;
+    }
+    .ceo_comment .content .info .thumb img {
+        max-width: 28px;
+    }
+    .ceo_comment .content .info .content h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .ceo_comment .content .info .content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .ceo_comment .video .tva-video a {
+        width: 50px;
+        height: 50px;
+    }
+
+    .client_comment .star .thumb {
+        width: 40px;
+        height: 40px;
+    }
+    .client_comment .star .thumb img {
+        max-width: 24px;
+    }
+    .client_comment .content p {
+        font-size: 14px;
+        line-height: 160%;
+        margin-bottom: 20px;
+    }
+    .client_comment .star ul {
+        gap: 4px;
+    }
+    .client_comment .content .info img {
+        max-width: 50px;
+    }
+
+    /***********************
+    7.5-1400) offer area here
+    ***********************/
+    .offer_container .section_header2 {
+        margin-bottom: 20px;
+    }
+    .offer_lists .offer_list:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .offer_content .content h6 {
+        line-height: 26px;
+        margin-bottom: 4px;
+    }
+
+    /***********************
+    7.6-1400) funfact area here
+    ***********************/
+    .funfact_container .item h2 {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    /***********************
+    7.7-1400) choose area here
+    ***********************/
+    .choose2 .section_header2 {
+        margin-bottom: 50px;
+    }
+
+    /***********************
+    7.8-1400) latest blog area here
+    ***********************/
+    .latest_blog2 .blog_container {
+        padding-top: 100px;
+    }
+
+}
+
+/*############################## 
+Extra large: ---------
+2) 1200 xlarge devices
+##############################*/
+@media screen and (max-width: 1200px){
+    /* common  */
+    /* common end */
+    
+    /* 
+    1) home-one-1200-------------------]
+    */
+    /*********************** 
+    1.1-1200) header area here
+    ***********************/
+    .header_container .header_left {
+        gap: 60px;
+    }
+
+    /*
+    2) contact-1200-------------------]
+    */
+    /***********************
+    2.1-1200) contact hero area here
+    ***********************/
+    .ch_container,
+    .contact_container {
+        grid-template-columns: auto;
+        grid-gap: 60px;
+    }
+    .ch_items .ch_item {
+        padding: 40px 20px;
+    }
+
+    /***********************
+    2.2-1200) contact area here
+    ***********************/
+    .contact_form {
+        padding: 40px 20px;
+    }
+    .contact_form .cf_content {
+        gap: 20px;
+    }
+    .contact_form .cf_group {
+        grid-gap: 20px;
+    }
+
+    /*
+    3) sign-up-1200-------------------]
+    */
+    /***********************
+    3.1-1200) sign up area here
+    ***********************/
+    .signUp .signUp_items {
+        align-items: center;
+    }
+    .signUp_form {
+        padding: 48px 20px;
+    }
+    
+    /* 
+    4) home-two-1200-------------------]
+    */
+    /*********************** 
+    4.1-1200) hero2 area here
+    ***********************/
+    .hero_container2 .star {
+        margin-bottom: 60px;
+    }
+    .hero_container2 .hero_thumb img {
+        max-width: 60%;
+    }
+
+    /*********************** 
+    4.2-1200) choose area here
+    ***********************/
+    .choose2 .choose_content .package_price h2 {
+        font-size: 36px;
+    }
+
+
+}
+
+/*##############################
+large layout:  --------- 
+3) 991px large devices
+##############################*/
+@media screen and (max-width: 991px){
+    /* common  */
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sp_120 {
+        padding: 80px 0px;
+    }
+    .sp_Top120 {
+        padding-top: 80px;
+    }
+    .section_header {
+        margin-bottom: 40px;
+    }
+    .section_heading {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    /* vector  */
+    .vector {
+        display: none !important;
+    }
+    /* common end */
+    
+    /* 
+    1) home-one-991-------------------]
+    */
+    /*********************** 
+    1.1-991) header area here
+    ***********************/
+    .header {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .sticky {
+        height: 70px;
+    }
+
+    /* logo container */
+    .logo_container {
+        margin-right: 0;
+    }
+    .logo_container img {
+        height: 46px;
+    }
+
+    /* header container  */
+    .header_container {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        bottom: 0;
+        width: max-content;
+        height: 100vh;
+        background: var(--yellowH1);
+        flex-direction: column;
+        padding: 120px 15px 80px;
+        opacity: 0;
+        visibility: hidden;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        transition: all .6s ease;
+        -webkit-transition: all .6s ease;
+        -moz-transition: all .6s ease;
+        -ms-transition: all .6s ease;
+        -o-transition: all .6s ease;
+    }
+    .header_container.show{
+        left: -0%;
+        opacity: 1;
+        visibility: visible;
+    }
+    /* closing container  */
+    .closing_container {
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    /* header container  */
+    /* navigation area here  */
+    .header .header_container .header_nav {
+        width: 100%;
+    }
+    .header .header_container .header_nav .navigation {
+        flex-direction: column;
+        gap: 0;
+        background: var(--blackDesH2);
+        padding: 60px 0px;
+    }
+    .header .header_container .header_nav .navigation li {
+        width: 100%;
+    }
+    .header .header_container .header_nav .navigation > li > a {
+        padding: 12px 0px !important;
+        display: block;
+        text-align: center;
+        color: var(--white);
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .header .header_container .header_nav .navigation li a:hover {
+        background: var(--blackDesH2);
+        color: var(--whiteDes2);
+    }
+    .header .header_container .header_nav .navigation li .sub {
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        padding: 0;
+        position: inherit;
+        border: 0;
+        display: none;
+        text-align: center;
+        box-shadow: none;
+    }
+    .header .header_container .header_nav .navigation li.SubMenuShow .sub {
+        display: block;
+        background: transparent;
+    }
+    .header .header_container .header_nav .navigation li.SubMenuShow .sub li a {
+        color: var(--whiteDes2);
+    }
+    .header .header_container .header_nav .navigation li .sub li a {
+        font-size: 12px;
+        line-height: 100%;
+    }
+    /* navigation area ends here  */
+    .header_container .header_button {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    .header_container .header_button .mainButton.buttonH1:hover {
+        color: var(--blackH1) !important;
+        background: transparent !important;
+        border: 1px solid var(--blackH1) !important;
+    }
+    .header_container .header_button .transparentButton.buttonH1:hover {
+        color: var(--white) !important;
+        background: var(--blackH1) !important;
+        border: 1px solid var(--blackH1) !important;
+    }
+    /* bar conatiner */
+    .bar_container {
+        display: block;
+    }
+
+    /*********************** 
+    1.2-991) hero area here
+    ***********************/
+    .hero,
+    .aHero,
+    .pChoose,
+    .inde_hero,
+    .signUp,
+    .contact_hero {
+        margin-top: 80px;
+    }
+    .hero_container .hero_header {
+        font-size: 48px;
+    }
+    .hero_wrapper .banner_image {
+        display: none;
+    }
+    .hero_wrapper .vector img {
+        left: auto;
+        right: 0;
+    }
+    .hero_container .hero_condition {
+        gap: 20px;
+    }
+
+    /*********************** 
+    1.3-991) features area here
+    ***********************/
+    .features .features_wrapper {
+        background-position: center;
+        padding-bottom: 80px;
+    }
+    .features_container .features_items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .features_container .features_item {
+        padding: 40px 15px;
+    }
+
+    /*********************** 
+    1.4-991) about features area here
+    ***********************/
+    .abf_container .abf_content {
+        grid-gap: 40px;
+    }
+    .abf_container .abf_list li:not(:last-child) {
+        margin-bottom: 16px;
+    }
+    .abf_container .abf_list li p {
+        font-size: 16px;
+        line-height: 18px;
+        gap: 10px;
+    }
+    .abf_container .abf_description p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /*********************** 
+    1.5-991) grow area here
+    ***********************/
+    .grow_container .grow_content {
+        padding: 80px 20px;
+    }
+
+    /*********************** 
+    1.6-991) testimonials area here
+    ***********************/
+    .testimonials_item .content {
+        padding: 40px 20px;
+    }
+    .testimonials_item .content .description {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /*********************** 
+    1.7-991) choose area here
+    ***********************/
+    .choose_list .choose_list_content {
+        grid-template-columns: auto auto;
+    }
+    .choose_list_content .choose_content {
+        padding: 40px 20px 120px;
+    }
+
+    /*********************** 
+    1.8-991) cta area here
+    ***********************/
+    .cta .cta_wrapper {
+        padding: 80px 0px;
+    }
+
+    /*********************** 
+    1.9-991) footer area here
+    ***********************/
+    .footer_widget .fw_title {
+        margin-bottom: 16px;
+    }
+    .footer_widget .fw_list a {
+        font-size: 14px;
+        line-height: 34px;
+    }
+    .copyright_container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .copyright_container .copyright_link {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    /* 
+    2) about-991-------------------]
+    */
+    /*********************** 
+    2.1-991) about hero area here
+    ***********************/
+    .aHero_container .thumb img {
+        height: 300px;
+    }
+
+    /*********************** 
+    2.2-991) about funfact area here
+    ***********************/
+    /* common  */
+    .aHero_container .section_header p,
+    .aFunfact_container .section_header p,
+    .aFunfact_container .item p  {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* common ends here  */
+    .aFunfact_container .items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .aFunfact_container .item:not(:last-child)::after {
+        display: none;
+    }
+
+    /*********************** 
+    2.3-991) about values area here
+    ***********************/
+    .aValues_container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    .aValues_container .aValues_items {
+        grid-gap: 60px;
+    }
+    .aValues_container .aValues_items .aValues_item:nth-child(2),
+    .aValues_container .aValues_items .aValues_item:nth-child(3) {
+        margin-top: inherit;
+    }
+    .aValues_container .aValues_item .aValues_content {
+        padding: 20px;
+    }
+    .aValues_right .content {
+        text-align: center;
+    }
+    .aValues_right .content .section_heading {
+        text-align: center;
+    }
+    .aValues_right .content .aValues_description p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /*
+    3) integrates-details-991-------------------]
+    */
+    /***********************
+    3.1-991) integrates details hero area here
+    ***********************/
+    .inde_hero_container .single_content .thumb {
+        margin-top: -60px;
+    }
+    .inde_hero_container .single_content .thumb img {
+        height: 60px;
+    }
+    .inde_hero_container .single_content .name {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .inde_hero_container .single_content .info {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .inde_hero_container .single_content .des {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /***********************
+    3.2-991) integrates details about area here
+    ***********************/
+    .inde_about_container .content h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .inde_about_container .content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /*
+    4) blog-details-991-------------------]
+    */
+    /***********************
+    4.1-991) about hero area here
+    ***********************/
+    .blog_details_hero {
+        padding: 60px 0px 0px;
+    }
+
+    /***********************
+    4.2-991) blog details area here
+    ***********************/
+    .bd_post_info {
+        margin-bottom: 40px;
+    }
+    .bd_post_info .profile {
+        gap: 10px;
+    }
+    .bd_post_info .profile .thumb img {
+        width: 40px;
+        height: 40px;
+    }
+    .bd_post_info .profile .name h4 {
+        font-size: 18px;
+    }
+    .bd_post_info .publish_date {
+        gap: 10px;
+    }
+    .bd_post_info .publish_date .thumb {
+        width: 30px;
+        height: 30px;
+    }
+    .bd_post_info .publish_date .thumb >* {
+        font-size: 11px;
+    }
+    .bd_post_info .publish_date .date p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .bd_content .content h2.title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .bd_content .content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .bd_content .testimonial .testimonial_content {
+        padding: 30px 20px;
+    }
+    .bd_content .testimonial .testimonial_content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .bd_content .testimonial .testimonial_content .test_info {
+        gap: 10px;
+    }
+    .bd_content .testimonial .testimonial_content .test_info .thumb img {
+        width: 40px;
+        height: 40px;
+    }
+    .bd_content .testimonial .testimonial_content .test_info .name h6 {
+        font-size: 18px;
+    }
+    .bd_content .testimonial .testimonial_content .quote {
+        font-size: 30px;
+        right: 20px;
+        bottom: 30px;
+    }
+
+    /*
+    5) sign-up-991-------------------]
+    */
+    /***********************
+    5.1-991) sign up area here
+    ***********************/
+    .signUp_input_group {
+        grid-template-columns: auto;
+    }
+    .signUp_with_group {
+        grid-template-columns: auto;
+    }
+
+
+    /*
+    6) home-two-991-------------------]
+    */
+    /***********************
+    6.1-991) hero2 area here
+    ***********************/
+    .hero2 {
+        margin-top: 80px;
+    }
+    .hero_container2 .hero_heading2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .hero_container2 .star_items li a {
+        font-size: 14px;
+    }
+
+    /***********************
+    6.2-991) features two area here
+    ***********************/
+    /* common area here  */
+    .section_heading2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .section_header2 .desc {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* common area ends here  */
+    .features_container2 .features_items2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /***********************
+    6.3-991) customer area here
+    ***********************/
+    .customer_item {
+        grid-gap: 60px;
+    }
+    
+    /***********************
+    6.4-991) offer area here
+    ***********************/
+    .offer_banner {
+        display: none;
+    }
+    
+
+    /*
+    7) integrates-1400-------------------]
+    */
+    /***********************
+    7.1-1400) about features area here
+    ***********************/
+    .about_features.iFeatures {
+        margin-top: 80px;
+    }
+
+}
+
+/*##############################
+Medium Layout: ---------
+4) 768px medium devices
+##############################*/
+@media screen and (max-width: 768px){
+    /* 
+    1) home-one-768-------------------]
+    */
+    /*********************** 
+    1.1-768) features area here
+    ***********************/
+    .features_container .features_items {
+        display: flex;
+        flex-direction: column;
+    }
+    .features_container .features_content {
+        text-align: center;
+    }
+    .features_container .features_content .thumb {
+        margin: 0 auto;
+    }
+    .features_container .features_content .content h4 {
+        white-space: inherit;
+        overflow: inherit;
+        text-overflow: inherit;
+    }
+
+    /*********************** 
+    1.2-768) about features area here
+    ***********************/
+    .abf_container .abf_content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .abf_items .abf_item:last-child .abf_content {
+        flex-direction: column-reverse;
+    }
+
+    /*********************** 
+    1.3-768) grow area here
+    ***********************/
+    .grow_container .grow_items {
+        grid-template-columns: auto;
+        grid-gap: 40px;
+    }
+    .grow_container .grow_items .grow_item .content {
+        text-align: center;
+    }
+    .grow_item .content h4 {
+        white-space: inherit;
+        overflow: inherit;
+        text-overflow: inherit;
+    }
+    .grow_item .content p {
+        display: inherit;
+    }
+
+    /*********************** 
+    1.4-768) testimonials area here
+    ***********************/
+    .testimonials_items {
+        grid-template-columns: auto;
+    }
+    .testimonials_item .content .description {
+        font-size: 16px;
+        line-height: 26px;
+        display: inherit;
+    }
+    .testimonials_item .content .meta {
+        gap: 14px;
+    }
+
+    /*********************** 
+    1.5-768) choose area here
+    ***********************/
+    .choose_plan .choose_nav {
+        margin-bottom: 40px;
+    }
+    .choose_nav_content li .nav-link {
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+        height: 40px;
+    }
+    .choose_list .choose_list_content {
+        grid-template-columns: auto;
+    }
+
+    /*********************** 
+    1.6-768) cta area here
+    ***********************/
+    .cta_container {
+        max-width: 100%;
+    }
+    .cta_container .section_heading {
+        text-align: center;
+    }
+    .cta_input input {
+        padding: 15px 15px;
+    }
+    .cta_button {
+        position: relative;
+        text-align: center;
+    }
+    .cta_button .secondaryButton.buttonH1 {
+        padding: 10px 20px;
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /*********************** 
+    1.7-768) footer area here
+    ***********************/
+    .copyright_container .copyright_link {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .copyright_container .copyright_menu {
+        gap: 14px;
+    }
+    .copyright_container .copyright_text {
+        text-align: center;
+    }
+    
+    /* 
+    2) about-768-------------------]
+    */
+    /*********************** 
+    2.1-768) about hero area here
+    ***********************/
+    .aHero_container .section_header {
+        margin-bottom: 0;
+    }
+    .aHero_container .thumb {
+        display: none;
+    }
+
+    /*********************** 
+    2.2-768) about funfact area here
+    ***********************/
+    .aFunfact_container .items {
+        grid-template-columns: auto;
+        grid-gap: 30px;
+    }
+
+    /*********************** 
+    2.3-768) about features area here
+    ***********************/
+    .aFeatures .abf_content .section_heading {
+        text-align: center;
+    }
+    .aFeatures .abf_content .content {
+        text-align: center;
+    }
+
+    /*********************** 
+    2.4-768) about values area here
+    ***********************/
+    .aValues_container .aValues_items {
+        grid-template-columns: auto;
+        grid-gap: 30px;
+    }
+    .aValues_container .aValues_left .aValues_circle {
+        display: none;
+    }
+
+    /* 
+    3) pricing-768-------------------]
+    */
+    /*********************** 
+    3.1-768) pricing offer area here
+    ***********************/
+    .pOffer_items {
+        grid-template-columns: auto;
+    }
+    .pOffer_item {
+        padding: 40px 20px;
+    }
+    .pOffer_item .content h3 {
+        margin-bottom: 12px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .pOffer_item .content p {
+        margin-bottom: 30px;
+        line-height: 26px;
+        font-size: 16px;
+    }
+
+    /*
+    4) integrates-768-------------------]
+    */
+    /***********************
+    4.1-768) about features area here
+    ***********************/
+    .iFeatures .abf_container .abf_content .section_heading {
+        text-align: center;
+    }
+    .iFeatures .abf_items .abf_item .abf_content {
+        grid-gap: 40px;
+    }
+    .iFeatures .abf_items .abf_item .abf_content .content {
+        text-align: center;
+    }
+
+    /***********************
+    4.2-768) integrates area here
+    ***********************/
+    .integrates_container .integrates_items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*
+    5) blog-768-------------------]
+    */
+    /***********************
+    5.1-768) blog filter area here
+    ***********************/
+    .b_filter_container .b_filter_items {
+        grid-template-columns: auto;
+        gap: 40px;
+    }
+    .b_filter_container .from_content .from_input input {
+        padding: 20px 128px 20px 10px;
+    }
+
+    /***********************
+    5.1-768) blog area here
+    ***********************/
+    .blog_items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+
+    /*
+    6) blog-details-768-------------------]
+    */
+    /***********************
+    6.1-768) blog details area here
+    ***********************/
+    .bd_content .testimonial {
+        grid-template-columns: auto;
+    }
+    .bd_content .testimonial .single_thumb img {
+        height: 250px;
+    }
+    .bd_info .share,
+    .bd_info .share ul {
+        flex-wrap: wrap;
+    }
+
+    /* 
+    7) contact-768-------------------]
+    */
+    /***********************
+    7.1-768) contact hero area here
+    ***********************/
+    .ch_container .ch_items {
+        grid-gap: 20px;
+        grid-template-columns: auto;
+    }
+
+    /***********************
+    7.2-768) contact area here
+    ***********************/
+    .contact_form .cf_group {
+        grid-template-columns: auto;
+    }
+
+    /*
+    8) sign-up-768-------------------]
+    */
+    /***********************
+    8.1-768) sign up area here
+    ***********************/
+    .signUp .signUp_items {
+        display: flex;
+        flex-direction: column-reverse;
+        grid-gap: inherit;
+    }
+    .signUp_item {
+        width: 100%;
+    }
+    .signUp_item .thumb {
+        display: none;
+    }
+
+
+    /*
+    9) home-two-768-------------------]
+    */
+    /***********************
+    9.1-768) hero2 area here
+    ***********************/
+    .hero2 {
+        padding: 80px 0px 0px;
+    }
+
+    /***********************
+    9.2-768) features two area here
+    ***********************/
+    .features_container2 .section_header2 {
+        grid-template-columns: auto;
+        grid-gap: 20px;
+        text-align: center;
+    }
+
+    /***********************
+    9.3-768) customer area here
+    ***********************/
+    .customer_item {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .customer_button button {
+        margin: 0 auto;
+    }
+
+
+    /***********************
+    9.4-768) testimonial2 area here
+    ***********************/
+    .ceo_comment {
+        grid-template-columns: auto;
+    }
+    .ceo_comment .video {
+        height: 250px;
+    }
+    .client_comments {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /***********************
+    9.5-768) latest blog area here
+    ***********************/
+    .latest_blog2 .blog_container {
+        padding-top: 80px;
+        grid-template-columns: auto;
+    }
+    .latest_blog2 .section_header2 {
+        text-align: center;
+    }
+
+    /***********************
+    9.6-768) cta2 area here
+    ***********************/
+    .cta2 .cta_container {
+        grid-template-columns: auto;
+        text-align: center;
+        grid-gap: 60px;
+    }
+
+}
+
+/*##############################
+Small Layout: ---------
+5) 576px small devices
+##############################*/
+@media screen and (max-width: 576px){
+    /*
+    1) integrates-576-------------------]
+    */
+    /***********************
+    1.1-576) integrates area here
+    ***********************/
+    .integrates_container .integrates_items {
+        grid-template-columns: auto;
+    }
+    .integrates_container .integrates_content .des p {
+        display: inherit;
+    }
+
+    /*
+    2) integrates-details-576-------------------]
+    */
+    /***********************
+    2.1-576) integrates details hero area here
+    ***********************/
+    .inde_hero_container .single_content {
+        padding: 30px 20px;
+    }
+
+    /*
+    3) blog-576-------------------]
+    */
+    /***********************
+    3.1-576) blog area here
+    ***********************/
+    .blog_items {
+        grid-template-columns: auto;
+    }
+
+
+    /*
+    4) home-two-768-------------------]
+    */
+    /***********************
+    4.1-576) features two area here
+    ***********************/
+    .features_content2 {
+        text-align: center;
+    }
+    .features_container2 .features_items2 {
+        grid-template-columns: auto;
+    }
+    .features_container2 .features_item2 {
+        padding: 40px 20px;
+    }
+
+    /***********************
+    4.2-576) testimonial2 area here
+    ***********************/
+    .client_comments {
+        grid-template-columns: auto;
+    }
+    .client_comments .client_comment {
+        padding: 30px 20px;
+    }
+
+    /***********************
+    4.3-576) funfact area here
+    ***********************/
+    .funfact {
+        padding: 80px 0px;
+    }
+
+    /***********************
+    4.4-576) latest blog area here
+    ***********************/
+    .latest_blog2 .blog_items {
+        grid-template-columns: auto;
+    }
+    .latest_blog2 .customer_button {
+        margin-top: 30px;
+    }
+
+}
+
+/*########################
+#theEndRESPONSIVE########################
+########################*/
