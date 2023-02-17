@@ -79,6 +79,32 @@
         
     });
 
+    $(".cl_carousel2").owlCarousel({
+        loop: true,
+        items: 1,
+        margin: 30,
+        nav: false,
+        dots: false,
+        center: true,
+        autoplay: true,
+        smartSpeed: 2000,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 20
+            },
+            700: {
+                items: 1,
+                margin: 20
+            },
+            1200: {
+                items: 1,
+                margin: 30
+            }
+        }
+        
+    });
 
     // -----------------------
     // This will create a counter up js

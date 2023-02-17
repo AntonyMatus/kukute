@@ -261,6 +261,10 @@ Extra large: ---------
         width: 60px;
         height: 60px;
     }
+    .features_container .features_content .thumb2 {
+        width: 20px;
+        height: 20px;
+    }
     .features_container .features_content .thumb img {
         max-width: 26px;
     }

@@ -406,7 +406,7 @@ span.marking {
 /* content  */
 .hero_container .hero_header {
     color: var(--white);
-    font-family: Urbanist;
+    font-family: 'Urbanist';
     font-size: 72px;
     font-weight: 900;
     line-height: 72px;
@@ -480,9 +480,8 @@ span.marking {
     text-align: center;
 }
 .cl_container .cl_headline {
-    margin-bottom: 60px;
     color: var(--client-color);
-    font-family: Urbanist;
+    font-family: 'Urbanist';
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -512,12 +511,10 @@ span.marking {
 .features {
     position: relative;
     overflow: hidden;
+    padding: 100px 0;
 }
 .features .features_wrapper {
-    background: url("../images/banner/featuresBanner.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
+    background: white;
     padding-bottom: 100px;
 }
 .features_container .features_items {
@@ -536,7 +533,7 @@ span.marking {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--yellowH1);
+    background: var(--client-color);
     border-radius: 50%;
 }
 .features_container .features_content .thumb img {
@@ -744,9 +741,13 @@ span.marking {
     object-fit: cover;
 }
 .testimonials_item .content .meta .info h5 {
+    font-family: 'Urbanist';
+    font-size: 20px;
     font-weight: 800;
     line-height: 28px;
-    margin-bottom: 2px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 .testimonials_item .content .meta .info p {
     font-size: 16px;
@@ -903,12 +904,25 @@ span.marking {
     overflow: hidden;
     background-color: var(--client-color);
 }
+.cta3 {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--white);
+}
 .cta .cta_wrapper {
     background: url("../images/banner/cta-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.cta3 .cta_wrapper2 {
+    background: url("../images/banner/bg-cta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
     position: relative;
     z-index: 0;
     overflow: hidden;
@@ -923,11 +937,21 @@ span.marking {
     left: 0;
     z-index: -2;
 }
+.cta3 .cta_wrapper2::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(90.67deg, #12141D 24.1%, rgba(18, 20, 29, 0) 84.85%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
 .cta_container {
     max-width: 470px;
 }
 .cta_container .section_header {
-    margin-bottom: 40px;
+    margin: 80px 30px;
 }
 .cta_container .section_heading {
     color: var(--white);
@@ -1004,11 +1028,16 @@ span.marking {
     gap: 40px;
 }
 .footer_widget .fw_title {
+    
+    margin-bottom: 5rem;
+    color: var(--client-color);
+    font-family: 'Urbanist';
+    font-size: 32px;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    text-transform: capitalize;
-    margin-bottom: 24px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
 }
 .footer_widget .fw_list a {
     font-weight: 400;
@@ -1080,7 +1109,7 @@ span.marking {
 .aHero {
     position: relative;
     overflow: hidden;
-    margin-top: 104px;
+    margin-top: 0px;
 }
 .aHero_container .section_header {
     text-align: center;
@@ -1976,7 +2005,7 @@ span.marking {
     position: relative;
     overflow: hidden;
     z-index: 0;
-    background: var(--bgH1);
+    background: var(--client-color);
 }
 .contact_container {
     display: grid;
@@ -1988,10 +2017,16 @@ span.marking {
     margin-bottom: 40px;
 }
 .contact_info .section_header .section_heading {
-    text-align: start;
     max-width: 100%;
     margin: 0 0 20px;
     text-transform: capitalize;
+    font-family: 'Urbanist';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 .contact_info .section_header p {
     font-family: 'Urbanist', sans-serif;
@@ -2012,8 +2047,8 @@ span.marking {
 .contact_info .social_content .thumb {
     width: 60px;
     height: 60px;
-    background: var(--yellowH1);
-    color: var(--blackH1);
+    background: var(--white);
+    color: var(--client-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -2037,7 +2072,7 @@ span.marking {
 }
 /* contact form  */
 .contact_form {
-    background: var(--blackH1);
+    background: var(--white);
     padding: 40px;
 }
 .contact_form .cf_content {
@@ -2054,7 +2089,7 @@ span.marking {
     width: 100%;
     padding: 20px;
     background: #FFFFFF;
-    border: 1px solid rgba(18, 20, 29, 0.1);
+    border: 1px solid var(--client-color);
     border-radius: 4px;
     font-size: 16px;
     line-height: 20px;
@@ -2465,7 +2500,6 @@ span.underline2 {
 }
 .features_container2 .features_items2 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
 .features_container2 .features_item2 {
@@ -2948,15 +2982,120 @@ span.underline2 {
 }
 .p0 { padding: 0;}
 .funcionalidad {
-    font-family: Urbanist;
-    font-size: 55px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-size: 55px !important;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 60px !important;
     letter-spacing: 0px;
-    text-align: left;
+    text-align: left !important;
 }
 
 .d-grid2{ display: grid;
 justify-content: center;
 align-items: center;
+}
+.servicios-title {
+    font-size: 48px !important;
+}
+.subtitle-service {
+    color: var(--client-color);
+    font-family: 'Urbanist';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.icon-feature{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.portafolio {
+    font-family: 'Urbanist';
+    font-size: 48px !important;
+    font-weight: 800;
+    line-height: 58px !important;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.testi {
+    font-family: 'Urbanist';
+    font-size: 48px !important;
+    font-weight: 800;
+    line-height: 58px !important;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.cta-title{
+    color: white;
+    font-family: 'Urbanist';
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.bg-client{ background-color: var(--client-color);}
+.borde-client{ border: 1px solid var(--client-color);}
+
+.fw_list{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #7A736A;
+
+}
+
+.manrope{
+    font-family: 'Manrope';
+}
+
+.justify-items-end {
+    justify-items: end;
+}
+.copyright_container .social a {
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: var(--client-color);
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    color: #fff;
+}
+.d-flex2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.d-flex2 .linea{
+    width: 200px;
+    height: 0px;
+    border: 2px solid var(--client-color);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.urbanistic{
+    font-family: 'Urbanist';
+    color: var(--client-color);
+}
+
+.justify-content-left{
+    justify-content: left;
 }
