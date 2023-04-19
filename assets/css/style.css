@@ -154,7 +154,9 @@ CSS INDEX
     text-transform: capitalize;
     border-radius: 4px;
     border-color: white;
+    background: white;
 }
+.buttonH1:hover{color: var(--client-color);}
 .mainButton.buttonH1 {
     color: var(--white);
     background: var(--blackH1);
