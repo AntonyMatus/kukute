@@ -922,7 +922,7 @@ span.marking {
     background-color: var(--white);
 }
 .cta .cta_wrapper {
-    background: url("../images/banner/cta-banner.png");
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -2348,6 +2348,8 @@ span.marking {
     align-items: center;
     gap: 8px;
     border-color: transparent;
+    background: white;
+    width: 200px;
 }
 .blackButton2.buttonH2 {
     color: var(--white);
