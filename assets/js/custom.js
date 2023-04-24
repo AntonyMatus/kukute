@@ -80,13 +80,13 @@
     });
 
     $(".cl_carousel2").owlCarousel({
-        loop: true,
+        loop: false,
         items: 1,
         margin: 30,
         nav: false,
         dots: false,
         center: true,
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 2000,
         autoplayTimeout: 5000,
         responsive: {

@@ -191,13 +191,13 @@ Extra large: ---------
     }
     /* section heading area here  */
     .section_heading {
-        font-size: 64px;
-        line-height: 76.8px;
+        font-size: 53px;
+        line-height: 52.8px;
         max-width: 600px;
 
     }
     .section_header {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     /* button area here  */
     .buttonH1 {
@@ -754,7 +754,7 @@ large layout:  ---------
         bottom: 0;
         width: max-content;
         height: 100vh;
-        background: var(--client-color);
+        background: var(--white);
         flex-direction: column;
         padding: 120px 15px 80px;
         opacity: 0;
@@ -847,7 +847,8 @@ large layout:  ---------
     }
     /* bar conatiner */
     .bar_container {
-        display: block;
+        display: flex;
+        gap: 3.5rem;
     }
 
     /*********************** 
@@ -1655,7 +1656,7 @@ Small Layout: ---------
     .hero_container {height: 250px; display: grid; align-items: center;}
     .hero_container .hero_header{font-size: 20px; line-height: 30px;}
     .hero_container .hero_des { font-size: 15px; line-height: 20px; margin: 0; }
-    .buttonH1{width: 150px; height: 48px; padding: 5px; }
+    .buttonH1{display: inline-block; }
     .d-flex2 .linea{width: 30px;}
     .cl_container .cl_headline{font-size: 18px; line-height: 20px;}
     .sp_120{padding: 50px 0;}
@@ -1691,7 +1692,12 @@ Small Layout: ---------
     .w-50{ width: 100% !important;}
     .justify-items-end {justify-items: left;}
     .footer_widget .fw_title{font-size: 30px;}
-
+    .header .header_container .header_nav .navigation{gap: 10px;}
+    .header .header_container .header_nav .navigation > .item-3 {order: -1; display: none;}
+    .display-responsive{display: initial;}
+    .header_container{justify-content: start;}
+    .cta_container .section_header{display: grid; justify-content: center;}
+    .img-resp{height: 38px;}
 
 }
 
